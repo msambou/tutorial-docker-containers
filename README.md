@@ -69,7 +69,7 @@ Maven is used to build and package a java application. Run the command below to 
  
  ## Build the docker image
     
-    sudo docker build -t petclinic-app
+    sudo docker build -t petclinic-app .
     
  ## Run the container
     
