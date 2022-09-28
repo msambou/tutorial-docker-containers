@@ -48,6 +48,19 @@ Maven is used to build and package a java application. Run the command below to 
 ## Dockerize the executable
 
 ### Create the Docker File
-    touch Dockerfile
+    nano Dockerfile
     
+### Paste these into the Dockerfile
     
+    FROM ubuntu:20.04
+
+    COPY ./target/spring-petclinic-2.7.3.jar .
+
+    EXPOSE 8080
+
+    RUN apt-get update && \
+        apt-get install -y openjdk-8-jdk
+
+    CMD ["java", "-jar", "spring-petclinic-2.7.3.jar"]
+    
+ 
