@@ -39,6 +39,15 @@ Maven is used to build and package a java application. Run the command below to 
     cd spring-petclinic
  
 ### Run the web app
+    # Package the application
     mvn package
     
-    java -jar 
+    # Run the executable
+    java -jar target/spring-petclinic-2.7.3.jar
+
+## Dockerize the executable
+
+### Create the Docker File
+    touch Dockerfile
+    
+    
