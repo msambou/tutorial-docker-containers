@@ -7,7 +7,7 @@ Log into your Azure Portal and start your Lab VM
 
 In Azure cloud shell, open port 8080 on the lab VM
   
-    az vm open-port --resource-group fall-2022-lab-work --name labvm --port 8080
+    az vm open-port --resource-group lab1 --name labvm --port 8080
 
 Log into the Lab VM via ssh
   
