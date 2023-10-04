@@ -58,7 +58,7 @@ Maven is used to build and package a java application. Run the command below to 
     
     FROM ubuntu:20.04
 
-    COPY ./target/spring-petclinic-2.7.3.jar .
+    COPY ./target/spring-petclinic-3.1.0-SNAPSHOT.jar .
 
     EXPOSE 8080
 
