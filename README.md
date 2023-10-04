@@ -63,7 +63,7 @@ Maven is used to build and package a java application. Run the command below to 
     EXPOSE 8080
 
     RUN apt-get update && \
-        apt-get install -y openjdk-8-jdk
+        apt-get install -y openjdk-17-jdk
 
     CMD ["java", "-jar", "spring-petclinic-3.1.0-SNAPSHOT.jar"]
     
