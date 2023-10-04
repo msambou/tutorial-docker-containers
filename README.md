@@ -18,6 +18,10 @@ Install Docker on your Lab VM
 
     sudo apt install docker.io
 
+### Install Java 17
+
+  sudo apt install openjdk-17-jdk openjdk-17-jre
+  
 ### Install Maven
 Maven is used to build and package a java application. Run the command below to install maven.
 
@@ -43,7 +47,7 @@ Maven is used to build and package a java application. Run the command below to 
     mvn package
     
     # Run the executable
-    java -jar target/spring-petclinic-2.7.3.jar
+    java -jar target/spring-petclinic-3.1.0-SNAPSHOT.jar
 
 ## Dockerize the executable
 
