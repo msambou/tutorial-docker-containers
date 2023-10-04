@@ -65,7 +65,7 @@ Maven is used to build and package a java application. Run the command below to 
     RUN apt-get update && \
         apt-get install -y openjdk-8-jdk
 
-    CMD ["java", "-jar", "spring-petclinic-2.7.3.jar"]
+    CMD ["java", "-jar", "spring-petclinic-3.1.0-SNAPSHOT.jar"]
     
  ### Save and Exit the Editor
  CTRL + O
